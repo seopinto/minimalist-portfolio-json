@@ -48,7 +48,7 @@ Basado en el diseño de <a href="(https://github.com/midudev/minimalist-portfoli
 
 </div>
 
-<img src="portada.png"></img>
+<img src="portada.jpg"></img>
 
 ## 🛠️ Stack
 
