@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@astrojs/check": "0.4.1",
+    "@fontsource-variable/onest": "^5.0.3",
+    "@fontsource/twinkle-star": "^5.0.19",
     "astro": "4.3.2",
     "hotkeypad": "0.1.0",
     "typescript": "5.3.3"

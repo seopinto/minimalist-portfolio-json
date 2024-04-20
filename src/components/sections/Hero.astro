@@ -7,6 +7,7 @@ import X from "@/icons/X.astro"
 import LinkedIn from "@/icons/LinkedIn.astro"
 import GitHub from "@/icons/GitHub.astro"
 import WorldMap from "@/icons/WorldMap.astro"
+import Whatsapp from "@/icons/whatsapp.astro"
 import type { SocialIcon } from "@/types"
 
 const { name, label, image, location, profiles, phone, email } = basics
@@ -16,6 +17,7 @@ const SOCIAL_ICONS: SocialIcon = {
   GitHub,
   LinkedIn,
   X,
+  Whatsapp
 }
 
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
@@ -52,12 +54,12 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
         {
           phone && (
             <a
-              href={`tel:${phone}`}
+              href={"https://wa.me/" +`${phone}`}
               title={`Llamar por teléfono a ${name} al número ${phone}`}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Phone />
+              <Whatsapp />
             </a>
           )
         }
@@ -103,10 +105,12 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
 
   h1 {
     font-size: 2rem;
+    font-weight: 700;
+    color: #fef08a;
   }
 
   h2 {
-    color: #444;
+    color:aliceblue;
     font-weight: 500;
     font-size: 1.1rem;
     text-wrap: balance;
@@ -120,7 +124,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
   }
 
   span {
-    color: #666;
+    color: aliceblue;
     display: flex;
     align-items: center;
     gap: 0.25rem;
@@ -129,7 +133,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
   }
 
   footer {
-    color: #555;
+    color: aliceblue;
     font-size: 0.65rem;
     display: flex;
     gap: 4px;
@@ -137,7 +141,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
   }
 
   footer a {
-    color: #777;
+    color: #fef9c3;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -152,6 +156,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
   footer a:hover {
     background: #eee;
     border: 1px solid #ddd;
+    color: black;
   }
 
   @media (width <= 700px) {
