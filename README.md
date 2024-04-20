@@ -11,7 +11,7 @@ Esquema del JSON de CV de <a href="https://jsonresume.org/schema/">jsonresume.or
 
 
 <p>
-Basado en el diseño de <a href="https://github.com/BartoszJarocki/cv">Bartosz Jarocki</a>
+Basado en el diseño de <a href="[https://github.com/BartoszJarocki/cv](https://github.com/midudev/minimalist-portfolio-json)">Midudev</a>
 
 </p>
 
