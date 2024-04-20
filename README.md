@@ -3,7 +3,7 @@
 <div align="center">
 <img src="logo.png" height="90px" width="auto" /> 
 <h2>
-    <em>Résumé</em> minimalista maquetado para web y pdf
+    <em>Resume</em> minimalista maquetado para web y pdf
 </h2>
 <p>
 Esquema del JSON de CV de <a href="https://jsonresume.org/schema/">jsonresume.org</a>
@@ -11,7 +11,7 @@ Esquema del JSON de CV de <a href="https://jsonresume.org/schema/">jsonresume.or
 
 
 <p>
-Basado en el diseño de <a href="[https://github.com/BartoszJarocki/cv](https://github.com/midudev/minimalist-portfolio-json)">Midudev</a>
+Basado en el diseño de <a href="(https://github.com/midudev/minimalist-portfolio-json)">Midudev</a>
 
 </p>
 
